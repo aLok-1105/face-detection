@@ -1,9 +1,9 @@
-**Face Recognition Using OpenCV and Face_Recognition Library**
+# Face Recognition Using OpenCV and Face_Recognition Library
 
-**Introduction**
+## Introduction
 This project is a simple face recognition system implemented using OpenCV and the face_recognition library. The system allows real-time face recognition from a webcam feed, comparing detected faces with known faces stored in a directory. When a known face is detected, the system will display the name associated with that face in a bounding box.
 
-**Requirements**
+## Requirements
 To run this project, you need the following:
 
 1. Python (version 3.6 or higher)
@@ -17,7 +17,7 @@ You can install the required libraries using pip:
 pip install opencv-python numpy face_recognition
 ```
 
-**How to Use**
+## How to Use
 
 1. Clone the repository or download the project files.
 
@@ -30,7 +30,7 @@ pip install opencv-python numpy face_recognition
 
    Open your terminal or command prompt and navigate to the project directory. Then, execute the following command:
 
-   ```bash
+   ```python
    python your_script_name.py
    ```
 
@@ -38,7 +38,7 @@ pip install opencv-python numpy face_recognition
 
 4. The webcam feed will open, and the face recognition system will start detecting faces in real-time.
 
-**How It Works**
+## How It Works
 
 1. The script loads images from the "Faces" directory and encodes them using the `encodeImg` function. The face_encodings function from the `face_recognition` library extracts facial features from each image and converts them into a 128-dimensional vector.
 
@@ -52,14 +52,14 @@ pip install opencv-python numpy face_recognition
 
 6. The process continues in real-time, allowing continuous face recognition from the webcam feed.
 
-**Important Note**
+## Important Note
 
 Please note that this is a basic face recognition system meant for educational purposes. In real-world applications, more advanced techniques and precautions should be used to enhance security and handle various scenarios. For instance, handling multiple faces in a single frame, dealing with changes in lighting conditions, and ensuring the privacy and security of the recognized individuals.
 
-**Disclaimer**
+## Disclaimer
 
 This project is solely for educational and learning purposes. Use the system responsibly and respect the privacy and rights of others. The developers of this project are not responsible for any misuse or unethical use of the system.
 
-**Conclusion**
+## Conclusion
 
 Congratulations! You have successfully set up and run a simple face recognition system using OpenCV and the face_recognition library. Feel free to experiment and improve the project, exploring more advanced techniques to make the system more robust and accurate. Happy coding!
